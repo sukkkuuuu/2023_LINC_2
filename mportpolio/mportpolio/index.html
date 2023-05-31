@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>최현수 포트폴리오 홈페이지</title>
+	<!-- <link rel="stylesheet" href="mportpolio.css"/> -->
+	<!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/> -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+   <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+	p {
+		text-align: center;
+	}
+
+	h3 {
+		text-align: center;
+	}
+
+	#stu-pic { display : block;
+			margin : auto;
+		}
+
+</style>
+</head>
+<body>
+	<div data-role="page" id="info">
+		<section class="section1">
+	<div data-role="navbar" >
+		<ul>
+			<li><a href="#info"> 인적 </a></li>
+			<li><a href="#intro"> 소개 </a></li>		
+			<li><a href="#career"> 프로젝트 </a></li>
+		</ul>
+		</div>	
+			<h3>인적사항</h3>
+			<ul>
+				<li>성    명 : 최현수 </li>
+				<li>생년월일 : 1999. 07. 12</li>
+				<li>주    소 : 부산 북구 모분재로 25-1(구포동)</li>
+				<li>연 락 처 : 010-9918-3120</li>
+				<li>학    력
+					<table id="year-table" border="1">
+						<thead>
+							<tr>	<th>졸업년도</th> <th>출신학교</th></tr>
+						</thead>
+						<tbody>
+							<tr>	<td>2012. 2</td><td> 양덕초등학교 졸업</td>	</tr>
+							<tr>	<td>2015. 2.</td><td> 덕천중학교 졸업</td>	</tr>
+							<tr>	<td>2018. 2.</td><td> 성도고등학교 졸업</td></tr>
+						</tbody>
+					</table>
+				</li>
+			</ul>
+		</section>
+		<aside>
+			<h3>참조링크</h3>
+			<a href="https://github.com/sukkkuuuu">
+				<img class="portal" src="GitHub-Mark.png" alt="github" width="50" height="50"/>
+			</a>
+		</aside>
+		<footer>
+			<img id="logo" src="logo.jpg" width="200" height="200" style="float:right"/>	
+		</footer>
+	</div>
+
+	  <div data-role="page" id="intro">
+		<section class="section1">  
+	<div data-role="navbar" >
+		<ul>
+			<li><a href="#info"> 인적 </a></li>
+			<li><a href="#intro"> 소개 </a></li>		
+			<li><a href="#career"> 프로젝트 </a></li>
+		</ul>
+		</div>	
+			<h3>자기소개</h3>
+			<!-- <img id="stu-pic" src="stu.jpeg" width="150"  /> -->
+			<div>
+				<p>저는 경성대학교 소프트웨어학과에 재학중이고 앱, 웹 프로그래밍 개발에 관심을 갖고 있는 최현수입니다. </br>
+				앱으로는 React Native를 사용해 보았고 웹으로는 React를 사용해 보았습니다.. </br>
+				항상 어떤 환경에서도 최선을 다하고 즐기는 마음으로 열심히 일하고자 합니다.
+			</p>
+	</div>
+		</section>
+	</div>
+
+	  <div data-role="page" id="career">
+		<section class="section1">  
+			<div data-role="navbar" >
+				<ul>
+					<li><a href="#info"> 인적 </a></li>
+					<li><a href="#intro"> 소개 </a></li>		
+					<li><a href="#career"> 프로젝트 </a></li>
+				</ul>
+				</div>
+
+			<ul>
+			</ul>
+			<div id="pic-container">
+			</div>				
+			<h3>프로젝트</h3>
+			<ul>
+				<h4>캡스톤 디자인</h4>
+				<li>2023 프로젝트</li>
+				<img src="./1.PNG" width ="30%" height="30%">
+				
+			</ul>
+		</section>
+	
+	  </div>
+</body>
+</html>
